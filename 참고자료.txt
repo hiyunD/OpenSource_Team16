@@ -1,2 +1,6 @@
+<사람인식 Yolo 코드>
 https://github.com/andmydignity/fall_detection_yolov8s.git
 https://github.com/Tory-Hwang/Object_Detect.git
+
+<Yolov8 설치>
+https://webnautes.tistory.com/1851
