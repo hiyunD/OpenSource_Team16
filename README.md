@@ -8,3 +8,4 @@
 * 이 영상 기반으로 제작<br/><br/>
 * 웹캠으로 인식하도록 수정함<br/>
 * pip install cvzone 해야함<br/>
+* classes.txt 다운 필수<br/>
