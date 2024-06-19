@@ -1,5 +1,12 @@
-# fall_detection_yolov8s
-Script that employs yolov8s-pose to detect humans in an image, retrieve the width and height of their bounding boxes, and ultimately determine if the width/height ratio exceeds 1.4, indicating a potential fall.
-It has a %96.3 accuracy rate,and runs pretty fast with CUDA. (For Nvidia RTX 3050 Mobile:385 FPS)
-Dataset link: https://falldataset.com/
-(i know this is not that user friendly but i just wanted to put this here in case it helps someone)
+# On Video.py
+
+실행하려면 경로 재설정 해야함
+비디오에 프레임을 씌워서 새로 비디오를 생성
+
+
+# test_02.py
+
+https://www.youtube.com/watch?v=wrhfMF4uqj8
+이 영상 기반으로 제작
+웹캠으로 인식하도록 수정함
+pip install cvzone 해야함
