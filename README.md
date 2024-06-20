@@ -13,3 +13,7 @@
 * 웹캠으로 인식하도록 수정함<br/>
 * pip install cvzone 해야함<br/>
 * classes.txt 설치 필수<br/>
+
+
+## test_03.py
+* interface는 hy3m1n님 코드이고 기능은 test_02.py의 fall detection으로 가져와 합침<br/>
