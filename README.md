@@ -17,3 +17,4 @@
 
 ## test_03.py
 * interface는 hy3m1n님 코드이고 기능은 test_02.py의 fall detection으로 가져와 합침<br/>
+* classes.txt 설치 필요 없음<br/>
