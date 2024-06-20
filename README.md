@@ -1,4 +1,6 @@
-# 파일 실행 전 yolov8s-pose.pt 설치 
+# <OpenSource_Team16><br/>YOLO POSE 기반 독거노인 쓰러짐 발견 및 알림 소프트웨어
+
+### <<파일 실행 전 yolov8s-pose.pt 설치>> 
 
 ### On Video.py
 > 실행하려면 경로 재설정 해야함<br/>
@@ -6,7 +8,8 @@
 
 ### test_02.py
 > https://www.youtube.com/watch?v=wrhfMF4uqj8<br/>
->  이 영상 기반으로 제작<br/><br/>
+> 위 영상 기반으로 제작<br/>
+
 > 웹캠으로 인식하도록 수정함<br/>
 > pip install cvzone 해야함<br/>
 > classes.txt 설치 필수<br/>
