@@ -1,5 +1,5 @@
-# << 파일 실행 전 yolov8s-pose.pt 설치 >>
-***
+# 파일 실행 전 yolov8s-pose.pt 설치 
+<br/>
 <br/>
 
 ## On Video.py
