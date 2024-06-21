@@ -22,7 +22,7 @@ recipient_email = '경고 메시지 받을 이메일 계정'
 # gmail 보내는 함수
 def send_email():
     subject = "Fall Detection Alert"
-    body = "5초 이상 쓰러짐이 감지되었습니다. 보호자와 응급시설에 연락을 보냅니다."
+    body = "피보호자의 응급상황입니다."
 
     msg = MIMEText(body)
     msg['Subject'] = subject
