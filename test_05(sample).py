@@ -45,7 +45,6 @@ def show_warning():
     root.withdraw()  # 메인 윈도우를 숨김
     messagebox.showwarning("Warning", 
                            "5초 이상 쓰러짐이 감지되었습니다.\n기능에 저장된 보호자와 응급시설에 연락을 보냅니다.")
-    send_email()
     root.destroy()
 
 model = YOLO('yolov8s-pose.pt')
@@ -87,6 +86,7 @@ while True:
                 if fall_start_time is None:
                     fall_start_time = time.time()
                 elif time.time() - fall_start_time >= 5:
+                    send_email()
                     show_warning()
                     fall_start_time = None  # 경고를 한번 띄운 후 초기화
 
