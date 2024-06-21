@@ -4,6 +4,10 @@ YOLO POSE 기반 독거노인 쓰러짐 발견 및 알림 소프트웨어
 
 ### <<파일 실행 전 yolov8s-pose.pt 설치>> 
 
+### OpenSource_16.py
+> 최종본
+> test_05(sample).py와 동일한 파일
+
 ### test_05(sample).py
 > test_03.py 배경으로 제작
 
