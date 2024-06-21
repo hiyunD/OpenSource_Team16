@@ -1,7 +1,7 @@
 # <OpenSource_Team16><br/>
-24-1 오픈소스프로그래밍 기말 팀 프로젝트
+24-1 오픈소스프로그래밍 기말 팀 프로젝트 <br/>
 YOLO POSE 기반 독거노인 쓰러짐 발견 및 알림 소프트웨어
-<br/>
+<br/><br/>
 
 # 실행방법
 
@@ -20,18 +20,19 @@ YOLO POSE 기반 독거노인 쓰러짐 발견 및 알림 소프트웨어
 - 울트라리틱스 (pip install ultralytics)
 - pip install lap(lapx)
 
+<br/>
 ### <<파일 실행 전 yolov8s-pose.pt 설치>> 
 - 사전 학습된 YOLOv8 모델
-- 스크립트(OpenSource_16.py)에 파일 경로 제공
+- 스크립트(OpenSource_16.py.)에 파일 경로 제공
 
-### OpenSource_16.py 파일 내 수정 필요 (이메일 정보 입력)
+<br/>
+### <<OpenSource_16.py 파일 내 수정 필요>> (이메일 정보 입력)
 > mail_user = '경고 메시지 보낼 이메일 계정'<br/>
 > email_password = '보낼 계정의 비밀번호'<br/>
 > recipient_email = '경고 메시지 받을 이메일 계정'
 
 > 경고 메시지 보낼 계정 관리 > 보안 > 보안 수준이 낮은 앱의 액세스 허용<br/>
 > (gmail 뿐 아니라 다른 이메일 계정도 가능)
-
 
 
 
