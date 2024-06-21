@@ -21,11 +21,13 @@ YOLO POSE 기반 독거노인 쓰러짐 발견 및 알림 소프트웨어
 - pip install lap(lapx)
 
 <br/>
+
 ### <<파일 실행 전 yolov8s-pose.pt 설치>> 
 - 사전 학습된 YOLOv8 모델
 - 스크립트(OpenSource_16.py.)에 파일 경로 제공
 
 <br/>
+
 ### <<OpenSource_16.py 파일 내 수정 필요>> (이메일 정보 입력)
 > mail_user = '경고 메시지 보낼 이메일 계정'<br/>
 > email_password = '보낼 계정의 비밀번호'<br/>
